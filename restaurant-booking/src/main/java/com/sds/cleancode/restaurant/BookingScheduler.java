@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeConstants;
 
-public class BookingScheduler { 
+public class BookingScheduler {  
 	private int capacityPerHour;	
 	private List<Schedule> schedules;	
 	private SmsSender smsSender;
